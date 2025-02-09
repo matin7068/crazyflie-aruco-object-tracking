@@ -10,7 +10,23 @@ This project enables a Crazyflie drone with an ArUco marker to autonomously navi
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Crazyflie-Aruco-Yellow.git
+   git clone https://github.com/matin7068/crazyflie-aruco-object-tracking.git
    cd crazyflie-aruco-object-tracking
 
+## Install Dependencies
+```bash
+   pip install -r requirements.txt
+```
    
+## Usage
+- Start the ArUco marker detection script (publisher).
+- Run the Crazyflie subscriber script to receive position data and control the drone:
+   ```bash
+   python subscriber.py
+
+
+# Requirements
+- Python 3.x
+- OpenCV
+- ZeroMQ (pyzmq)
+- Crazyflie Python API (cflib)
