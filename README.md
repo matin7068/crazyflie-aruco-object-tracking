@@ -24,9 +24,14 @@ This project enables a Crazyflie drone with an ArUco marker to autonomously navi
    ```bash
    python subscriber.py
 
+![Screenshot 2025-02-09 160947](https://github.com/user-attachments/assets/5fdb39f5-aea1-4b92-a666-0b4978ffb168) 
 
 # Requirements
 - Python 3.x
 - OpenCV
 - ZeroMQ (pyzmq)
 - Crazyflie Python API (cflib)
+
+
+
+
